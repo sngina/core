@@ -1,0 +1,17 @@
+body {
+    background-image: url(/Assets/Digital\ Marketing\ Food\ Campaigns.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#image{
+text-align: left;
+justify-content: left;
+}
+
+.oder {
+    color: white;
+    font-family: sans-serif;
+
+}

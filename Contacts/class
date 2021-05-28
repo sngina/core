@@ -1,0 +1,33 @@
+We create a class be using the world class.
+  BDD> Behaviuor driven development......
+we use the 
+1;Given..
+2:when..
+3:Then..
+TDD> Test Driven Development..
+a programming where three activities are involved...
+1:coding
+2:Testing
+3:Refactoring..
+Unittest....>we create test using (Unittest)
+            >we also import class
+setup() Method
+tearDown() > executes a set of instructions after every test.
+assertTrue> checks if the value is true....
+pyperclip>>>allows us to copy and paste items to our clipboard
+Text Files>>> A file organized in a sequence of lines.
+Binary Files>>>have a speacial method to read.
+
+.open()>>.returns a file..
+mode()>> the mode tells the developer and the interpreter in which way the file will be used.
+r > file is in Read Mode only...
+w > the file is in Write Mode only
+a > the file is in append mode where we can only add items from the bottom of the file.
+r+ > the file is in both read and write mode..
+.close()>>we use it to close the file handle to help us save some memory...handle = open("test.txt","r")
+# data = handle.read()
+# counter = 0
+# for word in data.split():
+#     if word == "Python":
+#         counter +=1
+with operator >>helps us to simplify how we read and write files..

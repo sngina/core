@@ -11,7 +11,7 @@ class Contact:
       Contact.contact_list.append(self) 
    def delete_contact(self):
       Contact.contact_list.remove(self)
-   @classmethod   
+   @classmethod      
    def find_by_number(cls,number):
       for contact in cls.contact_list:
          if contact.phone_number == number:

@@ -65,7 +65,7 @@ def main():
         elif    short_code == "ex":
             print("Bye .......")
             break
-        elif    short_code == 'ec':
+        elif    short_code == 'ec': 
             if  copy_email():
                 print("Enter the email you want to copy ") 
             copy_email = input()  
